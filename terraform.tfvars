@@ -21,12 +21,13 @@ aws_iam_group_members = {
 ##      Group_1                          policy_1                   Admin privilieges                  ##
 ##                                                                                                     ## 
 ##      Group_2                          policy_2                   Allows ec2 actions:                ##
-##                                                           Start, run, stop, and terminate instance  ## 
+##                                                           Start, run, stop, and terminate           ## 
+##                                                                  EC2 instance                       ## 
 ##                                                                                                     ## 
 ##      Group_3                          policy_3            Allow access to modify attributes         ## 
 ##                                                                  of an EC2 instance snapshot        ## 
 ##                                                                                                     ## 
-##      Group_4                          policy_4            Blocks ec2 access in the eu-central-l     ##
+##      Group_4                          policy_4            Blocks EC2 access in the eu-central-l     ##
 ##                                                                  (Frankfurt) region                 ## 
 #########################################################################################################
 
