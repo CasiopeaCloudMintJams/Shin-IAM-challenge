@@ -7,10 +7,10 @@ aws_iam_users = [
 
 # iam-groups
 aws_iam_group_members = {
-    "Funky-Finger-Productions"  = ["Clavelle", "Howard-Thibbs-III"]
-    "The-Blue-Notes"            = ["Theodore-Pendergrass"]
-    "Cold-Crush-Brothers"       = ["Grandmaster-Caz"]
-    "Leaders-Of-The-New-School" = ["Charlie-Brown", "Busta-Rhymes"]
+    "Funky-Finger-Productions"  : ["Clavelle", "Howard-Thibbs-III"]
+    "The-Blue-Notes"            : ["Theodore-Pendergrass"]
+    "Cold-Crush-Brothers"       : ["Grandmaster-Caz"]
+    "Leaders-Of-The-New-School" : ["Charlie-Brown", "Busta-Rhymes"]
 }
 
 # JSON polices for each iam group
