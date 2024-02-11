@@ -13,21 +13,21 @@ aws_iam_group_members = {
     "Leaders-Of-The-New-School" : ["Charlie-Brown", "Busta-Rhymes"]
 }
 
-# JSON polices for each iam group
-
-# iam group 1 permissions
-# has admin privileges
-
-# iam group 2 policy permissions
-# allows ec2 actions
-# to start, run, stop, and terminate an instance
-
-# iam group 3 policy permissions
-# allows access to modify attributes
-# of an ec2 instance snapshot    
-
-# iam group 4 policy permissions
-# blocks ec2 access in the eu-central-l (Frankfurt) region    
+#########################################################################################################
+##                              JSON polices for each IAM Group                                        ##
+#########################################################################################################
+##     IAM Group              ||     JSON Policy File     ||          Permissions                      ##
+#########################################################################################################
+##      Group_1                          policy_1                   Admin privilieges                  ##
+##                                                                                                     ## 
+##      Group_2                          policy_2                   Allows ec2 actions:                ##
+##                                                           Start, run, stop, and terminate instance  ## 
+##                                                                                                     ## 
+##      Group_3                          policy_3            Allow access to modify attributes         ## 
+##                                                                  of an EC2 instance snapshot        ## 
+##                                                                                                     ## 
+##      Group_4                          policy_4                   Admin privilieges                  ## 
+#########################################################################################################
 
 json_policices = {
     ##     IAM_Group            :  JSON_Policy  ##    
